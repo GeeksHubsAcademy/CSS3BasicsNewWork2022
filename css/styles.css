@@ -1,0 +1,130 @@
+
+/*
+    REMEMBER THE CASCADE....
+*/
+
+* {
+    padding: 0;
+}
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+    width: 100vw;
+
+
+    background-color: darkgray;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    background-color: greenyellow;
+    height: 8em;
+    width: 8em;
+    /* margin-left: 2em; */
+}
+
+.square {
+
+    height: 10em;
+    width: 10em;
+
+    background-color: blue;
+    
+    z-index: 100;
+
+}
+
+.square2 {
+
+    height: 18em;
+    width: 18em;
+
+    background-color: coral;
+    margin-left: -6em;
+
+    z-index: 1;
+
+}
+
+.laterSquare {
+    background-color: darkorange;
+}
+
+.laterSquare2 {
+    background-color: fuchsia;
+}
+
+#firstSquare {
+    background-color: cornflowerblue;
+
+}
+
+
+#secondSquare {
+    background-color: indigo;
+
+}
+
+.circle{
+
+    margin-left: 1em;
+
+    height: 6em;
+    width: 6em;
+
+    background-color: darkkhaki;
+
+    border-radius: 50%;
+
+    transition: 2s;
+}
+
+.circle:hover {
+
+    margin-left: 4em;
+
+    transition: 2s;
+}
+
+.circleWeird{
+    background-color: darkblue;
+}
+
+#squareGood {
+    height: 6em;
+    width: 6em;
+
+    background-color: darkmagenta;
+
+    transition: 2s;
+}
+
+#squareGood:hover {
+    /*These properties are going to apply once the mouse is over the element....*/
+
+    background-color:darkcyan;
+
+    transition: 2s;
+
+    border-radius: 50%;
+    margin-left: 5em;
+
+}
+
+::selection{
+    color: red;
+    background-color: gold;
+}
+
+.circle, #squareGood {
+    background-color: crimson;
+}

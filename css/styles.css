@@ -25,12 +25,12 @@ body {
     justify-content: center;
 }
 
-div {
+/* div {
     background-color: greenyellow;
     height: 8em;
     width: 8em;
-    /* margin-left: 2em; */
-}
+    
+} */
 
 .square {
 
@@ -120,11 +120,16 @@ div {
 
 }
 
-::selection{
+/* ::selection{
     color: red;
     background-color: gold;
-}
+} */
 
 .circle, #squareGood {
     background-color: crimson;
+}
+
+.link {
+    all: unset;
+    border: 0.2em solid black;
 }
